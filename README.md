@@ -6,7 +6,8 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A proposta do projeto "Gestão de Salão" é criar um aplicativo mobile que melhore a experiência do cliente e atenda as necessidades em relação ao relacionamento com salões. 
+Com ele, os clientes podem efetuar um cadastro único, agendar horários e até mesmo utilizar códigos QR para acessar promoções exclusivas e facilitar o check-in. Tudo isso diretamente pelo smartphone, proporcionando uma experiência personalizada e simplificada, que economiza tempo e melhora a interação com os serviços oferecidos. 
 
 ## Integrantes
 
