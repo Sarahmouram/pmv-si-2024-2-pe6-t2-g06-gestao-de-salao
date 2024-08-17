@@ -97,7 +97,16 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 # Catálogo de Serviços
 
-Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, detalhando suas características e funcionalidades.
+Serviços Cliente:
+- Cadastro/Login:
+- Agendamentos:
+- Lista de salões disponíveis:
+- Pagamento de serviços pelo App:
+- Sistema de fidelização (pontos):
+
+Serviços Salão:
+- Cadastro/Login:
+- Controle agenda:
 
 # Arquitetura da Solução
 
