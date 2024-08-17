@@ -100,13 +100,16 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 Serviços Cliente:
 - Cadastro/Login:
 - Agendamentos:
-- Lista de salões disponíveis:
 - Pagamento de serviços pelo App:
-- Sistema de fidelização (pontos):
+- Sistema de pontos:
+- Sistema de notificação:
 
 Serviços Salão:
 - Cadastro/Login:
-- Controle agenda:
+- Controle de agenda:
+- Sistema de pagamento:
+- Sistema de notificação:
+- Sistema de gestão:
 
 # Arquitetura da Solução
 
