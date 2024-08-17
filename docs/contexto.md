@@ -100,24 +100,19 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 ## Serviços Cliente:
 ### Cadastro/Login:
 - Características:
- - Funcionalidades: 
 
 ### Agendamentos:
 - Características:
-- Funcionalidades:
   
 ### Pagamento de serviços:
 - Características:
-- Funcionalidades:
 
 ## Serviços Salão
 ### Cadastro/Login:
 - Características:
-- Funcionalidades:
   
 ### Controle de agenda:
 - Características:
-- Funcionalidades:
 
 # Arquitetura da Solução
 
