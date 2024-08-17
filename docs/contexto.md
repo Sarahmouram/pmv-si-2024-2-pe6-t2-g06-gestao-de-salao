@@ -87,9 +87,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| Deve ser desenvolvido uma aplicação web               |
-|04| Deve ser desenvolvida uma aplicação mobile            |
+|02| Deve ser desenvolvido uma aplicação web               |
+|03| Deve ser desenvolvida uma aplicação mobile            |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
