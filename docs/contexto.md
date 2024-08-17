@@ -110,24 +110,12 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 - Características:
 - Funcionalidades:
 
-## Serviços Salão:
+## Serviços Salão
 ### Cadastro/Login:
 - Características:
 - Funcionalidades:
   
 ### Controle de agenda:
-- Características:
-- Funcionalidades:
-  
-### Sistema de pagamento:
-- Características:
-- Funcionalidades:
-  
-### Sistema de notificação:
-- Características:
-- Funcionalidades:
-  
-### Sistema de gestão:
 - Características:
 - Funcionalidades:
 
