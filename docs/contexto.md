@@ -97,7 +97,7 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 # Catálogo de Serviços
 
-### Serviços Cliente:
+## Serviços Cliente:
 ### Cadastro/Login:
 - Características:
  - Funcionalidades: 
@@ -106,24 +106,30 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 - Características:
 - Funcionalidades:
   
-### Pagamento de serviços pelo App:
+### Pagamento de serviços:
 - Características:
 - Funcionalidades:
 
-### Sistema de pontos:
+## Serviços Salão:
+### Cadastro/Login:
+- Características:
+- Funcionalidades:
+  
+### Controle de agenda:
+- Características:
+- Funcionalidades:
+  
+### Sistema de pagamento:
 - Características:
 - Funcionalidades:
   
 ### Sistema de notificação:
 - Características:
 - Funcionalidades:
-
-Serviços Salão:
-- Cadastro/Login:
-- Controle de agenda:
-- Sistema de pagamento:
-- Sistema de notificação:
-- Sistema de gestão:
+  
+### Sistema de gestão:
+- Características:
+- Funcionalidades:
 
 # Arquitetura da Solução
 
