@@ -59,6 +59,38 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| O cadastro de um novo funcionário/profissional só pode ser realizado após o login de um funcionário autorizado da empresa. | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
 |RF-003| O sistema deve permitir que o usuário final, empresa e funcionário entrem com o seu e-mail e senha. | TELA DE LOGIN - Entrada de Credenciais | ALTA |
 |RF-004| O sistema deve exibir um botão para visualizar/ocultar a senha digitada. | TELA DE LOGIN - Entrada de Credenciais | ALTA |
+|RF-005| O sistema deve permitir que somente um funcionário autorizado da empresa, após fazer login, cadastre novos funcionários/profissionais. | TELA DE LOGIN - Cadastro de Novo Funcionário Após Login de Funcionário Autorizado | ALTA |
+|RF-006| O sistema deve exigir que o funcionário autorizado insira os seguintes dados ao cadastrar um novo funcionário/profissional: nome completo do funcionário, e-mail corporativo do funcionário, CPF, telefone, cargo ou especialidade, e CNPJ da empresa. | TELA DE LOGIN - Cadastro de Novo Funcionário Após Login de Funcionário Autorizado | ALTA |
+|RF-007| O sistema deve enviar um convite para o e-mail do funcionário cadastrado, contendo um link para a criação de sua senha e ativação da conta. | TELA DE LOGIN - Cadastro de Novo Funcionário Após Login de Funcionário Autorizado | ALTA |
+|RF-008| O sistema deve permitir que o funcionário complete seu cadastro e defina sua senha após receber o convite enviado pela empresa. | TELA DE LOGIN - Cadastro de Novo Funcionário Após Login de Funcionário Autorizado | ALTA |
+|RF-009| O sistema deve ativar a conta do funcionário apenas após a definição da senha e a confirmação dos dados. | TELA DE LOGIN - Cadastro de Novo Funcionário Após Login de Funcionário Autorizado | ALTA |
+|RF-010| |RF-010| AQUI | APÓS LOGIN - Gestão de Agendas para funcionário | ALTA | | APÓS LOGIN - Gestão de Agendas para funcionário | ALTA |
+|RF-011| O sistema deve permitir que o funcionário/profissional crie, edite e exclua compromissos em sua agenda pessoal. | APÓS LOGIN - Gestão de Agendas para funcionário | ALTA |
+|RF-012| O sistema deve permitir que o funcionário/profissional defina a disponibilidade em sua agenda, indicando horários livres e ocupados. | APÓS LOGIN - Gestão de Agendas para funcionário | ALTA |
+|RF-013| O sistema deve garantir que apenas o funcionário/profissional autenticado tenha acesso à sua agenda específica, sem visibilidade das agendas de outros profissionais, exceto pela empresa administradora. | APÓS LOGIN - Gestão de Agendas para funcionário | ALTA |
+|RF-014| O sistema deve permitir que o funcionário/profissional visualize e gerencie reservas feitas por usuários finais diretamente em sua agenda | APÓS LOGIN - Gestão de Agendas para funcionário | ALTA |
+|RF-015| O sistema deve assegurar que cada funcionário/profissional só possa visualizar e editar a sua própria agenda, sem acesso às agendas de outros profissionais ou à agenda corporativa. | APÓS LOGIN - Controle de Acesso à Agenda para funcionário | ALTA |
+|RF-016| O sistema deve permitir que a empresa (ou administradores designados) visualize a disponibilidade e compromissos de todos os funcionários/profissionais, mas sem poder editar suas agendas individuais, a menos que explicitamente autorizado. | APÓS LOGIN - Controle de Acesso à Agenda para funcionário | ALTA |
+|RF-017| O sistema deve enviar notificações por e-mail ou WhatsApp para o funcionário/profissional quando um novo compromisso é agendado ou cancelado por um usuário final. | APÓS LOGIN - Notificações para funcionário | BAIXA |
+|RF-018| O sistema deve permitir que o funcionário/profissional configure alertas de lembrete para compromissos futuros em sua agenda. | APÓS LOGIN - Notificações para funcionário | BAIXA |
+|RF-019| O sistema deve garantir que o acesso a funcionalidades específicas da aplicação seja concedido com base no tipo de usuário (Usuário Final, Empresa ou Funcionário/Profissional). | APÓS LOGIN - Controle de Acesso | ALTA |
+|RF-010| O sistema deve bloquear a conta após um número específico de tentativas de login falhas e fornecer instruções para desbloqueio. | APÓS LOGIN - Controle de Acesso | BAIXA |
+|RF-010| O sistema deve redirecionar o funcionário/profissional para a tela da agenda pessoal após o login. | APÓS LOGIN - Redirecionamento Pós-Login | ALTA |
+|RF-010| O sistema deve redirecionar o usuário final para a tela inicial apropriada após o login (ex.: LISTA DE SALÕES NO RAIO DE 20 KM). | APÓS LOGIN - Redirecionamento Pós-Login | ALTA |
+|RF-010| O sistema deve redirecionar a empresa para a tela inicial corporativa após o login (ex.: painel administrativo da empresa). | APÓS LOGIN - Redirecionamento Pós-Login | ALTA |
+|RF-010| O sistema deve fornecer uma opção visível para logout em todas as telas pós-login. | LOGOUT | ALTA |
+|RF-010| O sistema deve garantir que o logout encerre completamente a sessão do usuário, exigindo novo login para acessar a aplicação novamente. | LOGOUT | ALTA |
+|RF-010| O sistema deve exibir mensagens claras e específicas para erros de login, como "Senha incorreta" ou "E-mail não registrado". | LOGIN - Feedback de Erro | ALTA |
+|RF-010| O sistema deve alertar o usuário em caso de tentativa de acesso com uma conta incorreta para o tipo de usuário selecionado. | LOGIN - Feedback de Erro | ALTA |
+|RF-010| O sistema deve exigir que todos os tipos de usuários aceitem os Termos de Uso e a Política de Privacidade durante o cadastro. | SIGIN - Termos de Uso e Política de Privacidade | BAIXA |
+|RF-010| O sistema deve fornecer links para os documentos de Termos de Uso e Política de Privacidade na tela de cadastro. | SIGNIN - Termos de Uso e Política de Privacidade | BAIXA |
+|RF-010| O sistema deve fornecer uma opção para o funcionário, usuário final e a empresa solicitarem a recuperação de senha | LOGIN - Recuperação de Senha | BAIXA |
+|RF-010| O sistema deve enviar um e-mail ou mensagem via WhatsApp com um link ou código para redefinição de senha. | LOGIN - Recuperação de Senha | BAIXA |
+|RF-010| O sistema deve permitir que o funcionário, usuário final e a empresa selecionem a opção "Lembre-me" para manter a sessão ativa, desde que a política de segurança da aplicação permita. | LOGIN - Lembre-me | BAIXA |
+|RF-010| O sistema deve permitir que o funcionário cadastre seu endereço completo e outras informações complementares, como CPF. | LOGIN - Cadastro de Endereço e Informações Complementares (Opcional) | BAIXA |
+|RF-010| O sistema deve permitir que o usuário final e a empresa cadastrem endereços e outras informações relevantes. | LOGIN - Cadastro de Endereço e Informações Complementares (Opcional) | BAIXA |
+|RF-010| AQUI | LOGIN - Cadastro de Endereço e Informações Complementares (Opcional) | BAIXA |
+
 
 ### Requisitos não Funcionais
 
