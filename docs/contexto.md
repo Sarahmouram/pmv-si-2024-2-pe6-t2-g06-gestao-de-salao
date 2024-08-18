@@ -88,8 +88,60 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-031| O sistema deve permitir que o funcionário, usuário final e a empresa selecionem a opção "Lembre-me" para manter a sessão ativa, desde que a política de segurança da aplicação permita. | LOGIN - Lembre-me | BAIXA |
 |RF-032| O sistema deve permitir que o funcionário cadastre seu endereço completo e outras informações complementares, como CPF. | LOGIN - Cadastro de Endereço e Informações Complementares (Opcional) | BAIXA |
 |RF-033| O sistema deve permitir que o usuário final e a empresa cadastrem endereços e outras informações relevantes. | LOGIN - Cadastro de Endereço e Informações Complementares (Opcional) | BAIXA |
-|RF-034| AQUI | LOGIN - Cadastro de Endereço e Informações Complementares (Opcional) | BAIXA |
-
+|RF-034| O sistema deve solicitar permissão para acessar a localização atual do usuário ao abrir a tela. | ESCOLHA DO SALÃO - Geolocalização | MEDIA |
+|RF-035| O sistema deve obter as coordenadas GPS do usuário e utilizá-las para calcular a distância até os salões de beleza próximos. | ESCOLHA DO SALÃO - Geolocalização | MEDIA |
+|RF-036| O sistema deve permitir que o usuário insira manualmente um endereço ou CEP, caso não deseje utilizar a localização atual. | ESCOLHA DO SALÃO - Geolocalização | MEDIA |
+|RF-037| O sistema deve exibir uma lista de salões de beleza dentro de um raio de 20 quilômetros da localização do usuário. | ESCOLHA DO SALÃO - Listagem de Salões de Beleza | MEDIA |
+|RF-038| O sistema deve exibir o nome, endereço, e a distância de cada salão de beleza em relação à localização atual do usuário. | ESCOLHA DO SALÃO - Listagem de Salões de Beleza | MEDIA |
+|RF-039| O sistema deve exibir uma imagem representativa do salão de beleza, como uma foto da fachada ou interior. | ESCOLHA DO SALÃO - Listagem de Salões de Beleza | MEDIA |
+|RF-040| O sistema deve permitir que o usuário visualize a lista de salões em ordem crescente de distância. | ESCOLHA DO SALÃO - Listagem de Salões de Beleza | MEDIA |
+|RF-041| O sistema deve permitir que o usuário aplique filtros para refinar a lista de salões de beleza com base em critérios como:
+o	Serviços oferecidos (ex.: corte, manicure, coloração)
+o	Faixa de preço (ex.: econômico, intermediário, premium)
+o	Classificação (ex.: salões com avaliação mínima de 4 estrelas)
+o	Disponibilidade de horários
+ | ESCOLHA DO SALÃO - Filtros de Pesquisa | BAIXA |
+|RF-042| O sistema deve permitir que o usuário ajuste o raio de pesquisa, com opções de 5, 10, 15, e 20 quilômetros. | ESCOLHA DO SALÃO - Filtros de Pesquisa | BAIXA |
+|RF-043| O sistema deve permitir que o usuário clique em um salão de beleza na lista para ver uma página de detalhes. | ESCOLHA DO SALÃO - Detalhes do Salão | BAIXA |
+|RF-044| O sistema deve exibir uma lista de serviços disponíveis no salão de beleza escolhido. | ESCOLHA DO SERVIÇO - Exibição de Serviços do Salão de Beleza | ALTA |
+|RF-045| O sistema deve mostrar para cada serviço: nome, descrição breve, preço e duração estimada. | ESCOLHA DO SERVIÇO - Detalhes do Serviços | ALTA |
+|RF-046| O sistema deve permitir que o usuário selecione um ou mais serviços para obter mais detalhes ou adicionar ao carrinho. | ESCOLHA DO SERVIÇO - Detalhes do Serviços | ALTA |
+|RF-047| O sistema deve categorizar os serviços por tipos (ex.: Cabelo, Unhas, Maquiagem, etc.) e permitir que o usuário filtre e classifique os serviços. | ESCOLHA DO SERVIÇO - Detalhes do Serviços | ALTA |
+|RF-048| O sistema deve permitir que o usuário clique em qualquer serviço para visualizar detalhes adicionais, incluindo fotos, avaliações e profissionais disponíveis. | ESCOLHA DO SERVIÇO - Detalhes e Seleção de Serviços | ALTA |
+|RF-049| O sistema deve permitir que o usuário escolha um profissional específico para cada serviço, exibindo uma lista de profissionais disponíveis com base em:
+o	Nome do profissional
+o	Foto do profissional
+o	Experiência e especializações
+o	Avaliações e comentários de outros clientes
+ | ESCOLHA DO SERVIÇO - Detalhes e Seleção de Serviços | ALTA |
+|RF-050| O sistema deve permitir que o usuário selecione o serviço desejado e adicione-o ao carrinho de compras. | ESCOLHA DO SERVIÇO - Detalhes e Seleção de Serviços | ALTA |
+|RF-051| O sistema deve exibir a disponibilidade de horários para cada profissional selecionado antes de adicionar o serviço ao carrinho. | ESCOLHA DO SERVIÇO - Detalhes e Seleção de Serviços | ALTA |
+|RF-052| O sistema deve exibir o carrinho de compras com todos os serviços adicionados, mostrando um resumo que inclui:
+o	Nome do serviço
+o	Nome do profissional selecionado
+o	Preço de cada serviço
+o	Duração total estimada dos serviços
+ | CARRINHO - Ordem de serviços | ALTA |
+|RF-052| O sistema deve permitir que o usuário edite o carrinho, com opções para remover serviços, ajustar quantidades ou selecionar outro profissional. | CARRINHO - Ordem de serviços | ALTA |
+|RF-053| O sistema deve exibir o total a pagar no carrinho, incluindo possíveis taxas ou descontos aplicados. | CARRINHO - Ordem de serviços | ALTA |
+|RF-054| O sistema deve permitir que o usuário prossiga para o agendamento após revisar os serviços no carrinho. | AGENDA - Agendamento de Serviços | ALTA |
+|RF-055| O sistema deve exibir as datas e horários disponíveis para cada serviço selecionado, de acordo com a disponibilidade do profissional escolhido. | AGENDA - Agendamento de Serviços | ALTA |
+|RF-056| O sistema deve permitir que o usuário confirme o agendamento e visualize um resumo da reserva antes de finalizar. | AGENDA - Agendamento de Serviços | ALTA |
+|RF-057| O sistema deve gerar automaticamente um QR code único após a confirmação do agendamento. | AGENDA - Geração de QR Code | ALTA |
+|RF-058| O QR code deve conter informações básicas sobre o agendamento, como nome do usuário, data, hora, serviços agendados e os profissionais escolhidos. | AGENDA - Geração de QR Code | ALTA |
+|RF-059| O sistema deve exibir o QR code na tela de confirmação do agendamento e enviar uma cópia via e-mail ou mensagem para o usuário. | AGENDA - Geração de QR Code | ALTA |
+|RF-060| O sistema deve permitir que o salão de beleza utilize uma máquina ou celular com leitor de QR code para escanear o QR code do usuário na chegada. | AGENDA - Confirmação de Presença e Baixa do Serviço | ALTA |
+|RF-061| O sistema deve reconhecer o QR code gerado anteriormente e verificar a validade do agendamento. | AGENDA - Confirmação de Presença e Baixa do Serviço | ALTA |
+|RF-062| Após a leitura do QR code, o sistema deve registrar automaticamente a presença do usuário e atualizar o status do serviço como “realizado” no sistema do salão | AGENDA - Confirmação de Presença e Baixa do Serviço | ALTA |
+|RF-063| O sistema deve notificar o usuário e o salão de beleza, confirmando que a presença foi registrada e o serviço baixado. | AGENDA - Confirmação de Presença e Baixa do Serviço | ALTA |
+|RF-064| O sistema deve enviar um lembrete ao usuário via notificação ou e-mail próximo à data e horário agendados. | AGENDA - Notificações e Lembretes | BAIXA |
+|RF-065| O sistema deve notificar o usuário se houver necessidade de alterações no agendamento ou cancelamento. | AGENDA - Notificações e Lembretes | BAIXA |
+|RF-066| O sistema deve permitir que o usuário visualize e gerencie seus agendamentos futuros, incluindo a opção de cancelar. | AGENDA - Gerenciamento de Agendamentos | BAIXA |
+|RF-067| O sistema deve permitir que o usuário acesse o QR code a qualquer momento a partir da seção de agendamentos. | AGENDA - Gerenciamento de Agendamentos | ALTA |
+|RF-068| O sistema deve solicitar ao usuário uma avaliação do serviço após a confirmação da presença ou conclusão do atendimento. | FEEDBACK - Feedback e Avaliações | BAIXA |
+|RF-069| O sistema deve permitir que o usuário deixe um comentário e atribua uma classificação para o serviço e para o profissional que o atendeu. | FEEDBACK - Feedback e Avaliações | BAIXA |
+|RF-070| O sistema deve garantir que o QR code gerado seja único e seguro, evitando duplicações ou fraudes. | SEGURANÇA - Segurança e Privacidade | ALTA |
+|RF-071| O sistema deve proteger os dados do usuário e do agendamento conforme as normas de privacidade aplicáveis. | SEGURANÇA - Feedback e Avaliações | ALTA |
 
 ### Requisitos não Funcionais
 
