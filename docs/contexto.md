@@ -57,6 +57,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O sistema deve exibir uma opção para o usuário selecionar o tipo de conta (Usuário Final, Empresa) antes de realizar o login ou cadastro | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
 |RF-002| O cadastro de um novo funcionário/profissional só pode ser realizado após o login de um funcionário autorizado da empresa. | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
+|RF-003| O sistema deve permitir que o usuário final, empresa e funcionário entrem com o seu e-mail e senha. | TELA DE LOGIN - Entrada de Credenciais | ALTA |
+|RF-004| O sistema deve exibir um botão para visualizar/ocultar a senha digitada. | TELA DE LOGIN - Entrada de Credenciais | ALTA |
 
 ### Requisitos não Funcionais
 
