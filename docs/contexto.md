@@ -95,11 +95,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-038| O sistema deve exibir o nome, endereço, e a distância de cada salão de beleza em relação à localização atual do usuário. | ESCOLHA DO SALÃO - Listagem de Salões de Beleza | MEDIA |
 |RF-039| O sistema deve exibir uma imagem representativa do salão de beleza, como uma foto da fachada ou interior. | ESCOLHA DO SALÃO - Listagem de Salões de Beleza | MEDIA |
 |RF-040| O sistema deve permitir que o usuário visualize a lista de salões em ordem crescente de distância. | ESCOLHA DO SALÃO - Listagem de Salões de Beleza | MEDIA |
-|RF-041| O sistema deve permitir que o usuário aplique filtros para refinar a lista de salões de beleza com base em critérios como:
-o	Serviços oferecidos (ex.: corte, manicure, coloração)
-o	Faixa de preço (ex.: econômico, intermediário, premium)
-o	Classificação (ex.: salões com avaliação mínima de 4 estrelas)
-o	Disponibilidade de horários
+|RF-041| O sistema deve permitir que o usuário aplique filtros para refinar a lista de salões de beleza com base em critérios como: Serviços oferecidos (ex.: corte, manicure, coloração), Faixa de preço (ex.: econômico, intermediário, premium), Classificação (ex.: salões com avaliação mínima de 4 estrelas), Disponibilidade de horários
  | ESCOLHA DO SALÃO - Filtros de Pesquisa | BAIXA |
 |RF-042| O sistema deve permitir que o usuário ajuste o raio de pesquisa, com opções de 5, 10, 15, e 20 quilômetros. | ESCOLHA DO SALÃO - Filtros de Pesquisa | BAIXA |
 |RF-043| O sistema deve permitir que o usuário clique em um salão de beleza na lista para ver uma página de detalhes. | ESCOLHA DO SALÃO - Detalhes do Salão | BAIXA |
