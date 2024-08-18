@@ -108,19 +108,11 @@ o	Disponibilidade de horários
 |RF-046| O sistema deve permitir que o usuário selecione um ou mais serviços para obter mais detalhes ou adicionar ao carrinho. | ESCOLHA DO SERVIÇO - Detalhes do Serviços | ALTA |
 |RF-047| O sistema deve categorizar os serviços por tipos (ex.: Cabelo, Unhas, Maquiagem, etc.) e permitir que o usuário filtre e classifique os serviços. | ESCOLHA DO SERVIÇO - Detalhes do Serviços | ALTA |
 |RF-048| O sistema deve permitir que o usuário clique em qualquer serviço para visualizar detalhes adicionais, incluindo fotos, avaliações e profissionais disponíveis. | ESCOLHA DO SERVIÇO - Detalhes e Seleção de Serviços | ALTA |
-|RF-049| O sistema deve permitir que o usuário escolha um profissional específico para cada serviço, exibindo uma lista de profissionais disponíveis com base em:
-o	Nome do profissional
-o	Foto do profissional
-o	Experiência e especializações
-o	Avaliações e comentários de outros clientes
+|RF-049| O sistema deve permitir que o usuário escolha um profissional específico para cada serviço, exibindo uma lista de profissionais disponíveis com base em: Nome do profissional,	Foto do profissional,	Experiência e especializações,	Avaliações e comentários de outros clientes
  | ESCOLHA DO SERVIÇO - Detalhes e Seleção de Serviços | ALTA |
 |RF-050| O sistema deve permitir que o usuário selecione o serviço desejado e adicione-o ao carrinho de compras. | ESCOLHA DO SERVIÇO - Detalhes e Seleção de Serviços | ALTA |
 |RF-051| O sistema deve exibir a disponibilidade de horários para cada profissional selecionado antes de adicionar o serviço ao carrinho. | ESCOLHA DO SERVIÇO - Detalhes e Seleção de Serviços | ALTA |
-|RF-052| O sistema deve exibir o carrinho de compras com todos os serviços adicionados, mostrando um resumo que inclui:
-o	Nome do serviço
-o	Nome do profissional selecionado
-o	Preço de cada serviço
-o	Duração total estimada dos serviços
+|RF-052| O sistema deve exibir o carrinho de compras com todos os serviços adicionados, mostrando um resumo que inclui: Nome do serviço,	Nome do profissional selecionado,	Preço de cada serviço, Duração total estimada dos serviços
  | CARRINHO - Ordem de serviços | ALTA |
 |RF-052| O sistema deve permitir que o usuário edite o carrinho, com opções para remover serviços, ajustar quantidades ou selecionar outro profissional. | CARRINHO - Ordem de serviços | ALTA |
 |RF-053| O sistema deve exibir o total a pagar no carrinho, incluindo possíveis taxas ou descontos aplicados. | CARRINHO - Ordem de serviços | ALTA |
