@@ -55,8 +55,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O sistema deve exibir uma opção para o usuário selecionar o tipo de conta (Usuário Final, Empresa) antes de realizar o login ou cadastro | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
+|RF-002| O cadastro de um novo funcionário/profissional só pode ser realizado após o login de um funcionário autorizado da empresa. | TELA DE LOGIN - Seleção do Tipo de Usuário | ALTA |
 
 ### Requisitos não Funcionais
 
