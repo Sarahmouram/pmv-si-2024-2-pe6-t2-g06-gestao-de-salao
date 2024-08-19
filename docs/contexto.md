@@ -16,18 +16,22 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivo geral: o projeto tem como objetivo estreitar ao máximo a relação entre clientes e estabelecimentos comerciais que prestem serviços de beleza pessoal.
+Delimitação: iremos nos focar apenas em serviços de beleza.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+O objetivo da criação da aplicação é a ideia de maximizar o contato entre clientes e salões. Com a ideia, pretendemos implementar um modo onde cada usuário final possa escolher o melhor serviço e local, com uma pesquisa mais simples e limpa. Ofereceremos praticidade, segurança, conforto, otimização, flexibilidade e modernidade, tanto aos salões, quanto aos clientes.
+
+Nossa principal pesquisa será feita em cima de usuários finais da aplicação: da parte do cliente, iremos atrás de definir quais as melhores funcionalidades para facilitar o uso; da parte do salão, iremos investigar a melhor forma de mostrar todos os serviços oferecidos.
+
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A justificativa se baseia na possibilidade de facilitar e diminuir a rotina dos usuários de serviço de beleza, dispensando grandes pesquisas como área, endereço e serviços prestados.
+Queremos alcançar a máxima de agilidade e flexibilidade dos usuários finais, tornando assim a aplicação uma ferramenta aliada poderosa para o dia-a-dia dos salões e recorrente no cliente.
+Vamos optar por um trabalho investigativo com analises de sites de buscas confiáveis e de opinião de usuários do serviço prestado.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
