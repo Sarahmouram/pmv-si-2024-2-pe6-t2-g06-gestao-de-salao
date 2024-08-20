@@ -115,20 +115,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-043| O sistema deve permitir que o usuário prossiga para a confirmação do agendamento após revisar os serviços no carrinho. | AGENDA - Agendamento de Serviços | ALTA |
 |RF-044| O sistema deve permitir que o usuário confirme o agendamento e visualize um resumo da reserva antes de finalizar. | AGENDA - Agendamento de Serviços | ALTA |
 |RF-045| O sistema deve gerar automaticamente um QR code único após a confirmação do agendamento. | AGENDA - Geração de QR Code | ALTA |
-|RF-046| O QR code deve conter informações básicas sobre o agendamento, como nome do usuário, data, hora, serviços agendados e os profissionais escolhidos. | AGENDA - Geração de QR Code | ALTA |
+|RF-046| O QR code deve conter informações básicas sobre o agendamento, como nome do usuário, data, hora, serviços agendados e os profissionais escolhidos. O sistema deve garantir que o QR code gerado seja único e seguro, evitando duplicações ou fraudes. | AGENDA - Geração de QR Code | ALTA |
 |RF-047| O sistema deve exibir o QR code na tela de agendamentos do usuário tal como salvar o agendamento na agenda do salão e funcionário. O sistema deve permitir que o usuário acesse o QR code a qualquer momento a partir da seção de agendamentos. | AGENDA - Geração de QR Code | ALTA |
 |RF-048| O sistema deve enviar notificação de novo agendamento para usuário, salao e funcionário (whatsapp ou email). | AGENDA - Geração de QR Code | ALTA |
-
 |RF-049| O sistema deve permitir que o salão de beleza utilize uma máquina ou celular com leitor de QR code para escanear o QR code do usuário na chegada. | AGENDA - Confirmação de Presença e Baixa do Serviço | ALTA |
 |RF-050| O sistema deve reconhecer o QR code gerado anteriormente e verificar a validade do agendamento. | AGENDA - Confirmação de Presença e Baixa do Serviço | ALTA |
 |RF-051| Após a leitura do QR code, o sistema deve registrar automaticamente a presença do usuário e atualizar o status do serviço como “realizado” no sistema do salão | AGENDA - Confirmação de Presença e Baixa do Serviço | ALTA |
 |RF-052| O sistema deve notificar o usuário e o salão de beleza, confirmando que a presença foi registrada e o serviço baixado. | AGENDA - Confirmação de Presença e Baixa do Serviço | ALTA |
-|RF-053| O sistema deve garantir que o QR code gerado seja único e seguro, evitando duplicações ou fraudes. | SEGURANÇA - Segurança e Privacidade | ALTA |
-
-|RF-054| O sistema deve enviar um lembrete ao usuário via notificação ou e-mail próximo à data e horário agendados. | AGENDA - Notificações e Lembretes | BAIXA |
-
-|RF-055| O sistema deve solicitar ao usuário uma avaliação do serviço após a confirmação da presença ou conclusão do atendimento. | FEEDBACK - Feedback e Avaliações | BAIXA |
-|RF-056| O sistema deve permitir que o usuário deixe um comentário e atribua uma classificação para o serviço e para o profissional que o atendeu. | FEEDBACK - Feedback e Avaliações | BAIXA |
+|RF-053| O sistema deve solicitar ao usuário uma avaliação do serviço após a confirmação da presença ou conclusão do atendimento. O sistema deve permitir que o usuário deixe um comentário e atribua uma classificação para o serviço e para o profissional que o atendeu. | FEEDBACK - Feedback e Avaliações | BAIXA |
 
 
 ### Requisitos não Funcionais
