@@ -52,6 +52,18 @@ O aplicativo "Gestão de Salão" é direcionado a adultos conectados, tanto home
 
 <img src = "img/persona_4.png">
 
+## Histórias de Usuários
+
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Marina Souza        | Agendar serviços de beleza próximos e rapidamente          | Conseguir encaixar cuidados pessoais na minha agenda sem complicações                |
+|Pedro Lopes         | Agendar serviços de beleza de forma prática e eficiente    | Economizar tempo e garantir que meus cuidados pessoais estejam sempre em dia       |
+|Joana Castro        | Promover meus serviços e atrair novos clientes pelo app    | Aumentar a visibilidade e fortalecer o relacionamento com os clientes                |
+|Juliana Soares      | Explorar diferentes serviços de beleza e acessar promoções | Aprender mais sobre a indústria e aproveitar ofertas que cabem no meu orçamento |
+
+ 
 # Especificações do Projeto
 
 ## Requisitos
