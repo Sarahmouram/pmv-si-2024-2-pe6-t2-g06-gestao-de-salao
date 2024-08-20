@@ -41,8 +41,7 @@ Vamos optar por um trabalho investigativo com analises de sites de buscas confi�
 O aplicativo "Gestão de Salão" é direcionado a adultos conectados, tanto homens quanto mulheres, que buscam conveniência e qualidade em seus cuidados pessoais. Esse público valoriza a praticidade e a modernidade, preferindo soluções tecnológicas que otimizem seu tempo e facilitem o acesso a serviços de beleza. Inclui tanto clientes frequentes de salões, que desejam um relacionamento contínuo e vantajoso com seus estabelecimentos preferidos, quanto novos clientes em busca de opções confiáveis e acessíveis na área de beleza.
 
 ## Personas 
-
-
+Para entender melhor os perfis dos usuários que o nosso sistema busca atender, desenvolvemos personas representativas das principais categorias dentro do público-alvo, conforme apresentado a seguir.
 
 <img src = "img/persona_1.png">
 
@@ -54,7 +53,7 @@ O aplicativo "Gestão de Salão" é direcionado a adultos conectados, tanto home
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
