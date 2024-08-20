@@ -23,9 +23,6 @@ O objetivo da criação da aplicação é a ideia de maximizar o contato entre c
 
 Nossa principal pesquisa será feita em cima de usuários finais da aplicação: da parte do cliente, iremos atrás de definir quais as melhores funcionalidades para facilitar o uso; da parte do salão, iremos investigar a melhor forma de mostrar todos os serviços oferecidos.
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -168,11 +165,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |02| Deve ser desenvolvido uma aplicação web               |
 |03| Deve ser desenvolvida uma aplicação mobile            |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 # Catálogo de Serviços
 
