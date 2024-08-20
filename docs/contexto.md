@@ -40,6 +40,7 @@ Vamos optar por um trabalho investigativo com analises de sites de buscas confi�
 
 O aplicativo "Gestão de Salão" é direcionado a adultos conectados, tanto homens quanto mulheres, que buscam conveniência e qualidade em seus cuidados pessoais. Esse público valoriza a praticidade e a modernidade, preferindo soluções tecnológicas que otimizem seu tempo e facilitem o acesso a serviços de beleza. Inclui tanto clientes frequentes de salões, que desejam um relacionamento contínuo e vantajoso com seus estabelecimentos preferidos, quanto novos clientes em busca de opções confiáveis e acessíveis na área de beleza.
 
+## Personas 
 
 
 # Especificações do Projeto
