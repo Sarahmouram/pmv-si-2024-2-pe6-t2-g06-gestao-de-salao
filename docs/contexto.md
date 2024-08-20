@@ -43,6 +43,15 @@ O aplicativo "Gestão de Salão" é direcionado a adultos conectados, tanto home
 ## Personas 
 
 
+
+<img src = "img/persona_1.png">
+
+<img src = "img/persona_2.png">
+
+<img src = "img/persona_3.png">
+
+<img src = "img/persona_4.png">
+
 # Especificações do Projeto
 
 ## Requisitos
